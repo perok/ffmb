@@ -1,0 +1,46 @@
+{
+  "name": "FFMB",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node_modules/.bin/bower install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.4.3",
+    "bower": "^1.3.5",
+    "compression": "^1.0.8",
+    "connect-flash": "~0.1.1",
+    "connect-mongo": "~0.4.1",
+    "consolidate": "^0.10.0",
+    "cookie-parser": "~1.3.1",
+    "express": "^4.4.4",
+    "express-session": "~1.5.1",
+    "glob": "^4.0.2",
+    "helmet": "~0.2.4",
+    "lodash": "^2.4.1",
+    "mongoose": "^3.8.12",
+    "morgan": "~1.1.1",
+    "passport": "~0.2.0",
+    "passport-local": "~1.0.0",
+    "swig": "^1.3.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^1.1.2",
+    "gulp": "^3.8.5",
+    "gulp-bower-src": "^0.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.2.0",
+    "gulp-jshint": "^1.6.3",
+    "gulp-less": "^1.2.4",
+    "gulp-minify-css": "^0.3.6",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  }
+}
